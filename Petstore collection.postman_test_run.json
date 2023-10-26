@@ -1,0 +1,146 @@
+{
+	"id": "574fe97d-9402-471f-8405-b1fbd77214a1",
+	"name": "Petstore collection",
+	"timestamp": "2023-10-26T16:56:04.644Z",
+	"collection_id": "13009434-9cc826e7-c20c-4ee1-9407-93ebb8a4178d",
+	"folder_id": 0,
+	"environment_id": "13009434-652c44d8-5d59-49c1-943e-5ba1a68d2370",
+	"totalPass": 4,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-10-26T16:56:03.118Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "ceb7a7be-8363-4306-b53f-3dc1206a3fb0",
+			"name": "Adding new data using POST request",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 585,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response Status 200": true
+			},
+			"testPassFailCounts": {
+				"Response Status 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				585
+			],
+			"allTests": [
+				{
+					"Response Status 200": true
+				}
+			]
+		},
+		{
+			"id": "d5800024-7149-4ff0-b0e0-0d4bfbf18705",
+			"name": "Update using the PUT method",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 136,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response Status 200": true
+			},
+			"testPassFailCounts": {
+				"Response Status 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				136
+			],
+			"allTests": [
+				{
+					"Response Status 200": true
+				}
+			]
+		},
+		{
+			"id": "da7ce55a-7a70-4cf3-b2a3-49a3e0d0e273",
+			"name": "Getting pet data by ID",
+			"url": "https://petstore.swagger.io/v2/pet/9223372036854750000",
+			"time": 135,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response Status 200": true
+			},
+			"testPassFailCounts": {
+				"Response Status 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				135
+			],
+			"allTests": [
+				{
+					"Response Status 200": true
+				}
+			]
+		},
+		{
+			"id": "f7289562-84a1-431b-9314-06696180b21d",
+			"name": "Deleting data with a DELETE request",
+			"url": "https://petstore.swagger.io/v2/pet/9223372036854750000",
+			"time": 135,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response Status 200": true
+			},
+			"testPassFailCounts": {
+				"Response Status 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				135
+			],
+			"allTests": [
+				{
+					"Response Status 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 991,
+	"collection": {
+		"requests": [
+			{
+				"id": "ceb7a7be-8363-4306-b53f-3dc1206a3fb0",
+				"method": "POST"
+			},
+			{
+				"id": "d5800024-7149-4ff0-b0e0-0d4bfbf18705",
+				"method": "PUT"
+			},
+			{
+				"id": "da7ce55a-7a70-4cf3-b2a3-49a3e0d0e273",
+				"method": "GET"
+			},
+			{
+				"id": "f7289562-84a1-431b-9314-06696180b21d",
+				"method": "DELETE"
+			}
+		]
+	}
+}
